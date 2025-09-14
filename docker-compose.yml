@@ -1,0 +1,12 @@
+services:
+  webhook:
+    build: .
+    container_name: ccxt-webhook
+    ports:
+      - "8080:5000"
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+      - ./credentials:/app/credentials
+    restart: unless-stopped

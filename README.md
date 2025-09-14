@@ -37,4 +37,3 @@ docker-compose up --build -d
 - Add authentication for webhooks before production.
 - Tune retry settings depending on API reliability.
 - Monitor for partial fills and adjust strategy accordingly.
-```

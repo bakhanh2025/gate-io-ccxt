@@ -72,3 +72,4 @@ eggs/
 .eggs/
 
 credentials/
+data/
